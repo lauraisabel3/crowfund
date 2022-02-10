@@ -1,0 +1,131 @@
+:root{
+    --moderate-cyan: hsl(176, 50%, 47%);
+    --dark-cyan: hsl(176, 72%, 28%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray: hsl(0, 0%, 48%);
+    --light-gray : rgb(230, 230, 230); 
+}
+
+.header-main{
+    max-width: 1600px;
+    height: 480px;
+}
+
+.header-icons-main{
+    padding: 40px 120px 40px 120px;
+}
+
+.header-icons-menu{
+    display: none;
+}
+
+.header-nav-container{
+    width: 100%;
+    justify-content: flex-end;
+    background-color: tomato;
+}
+
+.header-main-nav{
+    width: 400px;
+    height: auto;
+    margin: 40px 5% 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: none;
+    position: absolute;
+    justify-content: space-evenly;
+    background-color: transparent;
+    color: white;
+}
+
+.header-nav-items{
+    padding: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+main{
+    max-width: 1600px;
+}
+
+.main-mastercraft-container{
+    max-width: 680px;
+}
+
+.mastercraft-icons-container{
+    width: 90%;
+    max-width:600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.mastercraft-button-desktop {
+    width: 120px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    border: none;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--dark-cyan)
+}
+
+.mastercraft-bookmark-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.mastercraft-bookmark-container span{
+    width: 44px;
+   
+}
+
+.main-price-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.main-price-item{
+    justify-content: center;
+}
+
+.main-price-bar{
+    width: 90%;
+    margin: 12px;
+    grid-column: 1/4;
+    justify-self: center;
+}
+
+.main-price-container{
+    max-width: 680px;
+    margin: 180px auto 0 auto;
+}
+
+.main-about-container{
+    max-width: 680px;
+}
+
+
+.main-about-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 32px;
+    align-items: center;
+}
+
+.main-about-card p{
+    grid-column: 1/3;
+}
+
+.main-about-card h5, button {
+    justify-self: end;
+}
+
