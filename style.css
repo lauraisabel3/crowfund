@@ -185,6 +185,7 @@ main{
 }
 
 .mastercraft-icons-button:hover{
+    cursor: pointer;
     background-color: var(--dark-cyan);
 }
 
